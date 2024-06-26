@@ -1,0 +1,47 @@
+{
+    "carouselItems": [
+        {
+            "imageSrc": "assets/img/CSGO.jpg",
+            "title": "COUNTER STRIKE : GLOBAL OFFENSIVE",
+            "description": "Cs foi um jogo de fps que sempre tive vontade de jogar e atualmente em 2024 eu ganhei um notebook gamer que me possibilibou, e pra mim esse é o melhor jogo de fps atualmente."
+        },
+        {
+            "imageSrc": "assets/img/fifa 23.jpg",
+            "title": "FIFA 23",
+            "description": "Jogo de futebol que eu mais joguei e gostei, mesmo tendo vontade de jogar o controle na tv nas partidas de wl."
+        },
+        {
+            "imageSrc": "assets/img/fortnite.jpg",
+            "title": "FORTNITE",
+            "description": "Foi um dos jogos que eu mais joguei com meus amigos e sempre me bate uma sdd."
+        },
+        {
+            "imageSrc": "assets/img/readdead2.jpg",
+            "title": "READ DEAD REDEMPTION 2",
+            "description": "Simplesmente o jogo com o melhor gráfico possivel e também com uma historia muito boa e cheio de easter eggs."
+        },
+        {
+            "imageSrc": "assets/img/warzone.jpg",
+            "title": "CALL OF DUTY WARZONE",
+            "description": "Jogo de fps que eu mais joguei e o que eu mais joguei bem, acho ele muito bom, no entando é muito pesado e precisa de um pc bom."
+        }
+    ],
+    "colegas": [
+        {
+            "nome": "Samuel Lage",
+            "foto": "https://github.com/samuellagee.png"
+        },
+        {
+            "nome": "Caio Faleiro",
+            "foto": "https://github.com/CaioFaleiro.png"
+        },
+        {
+            "nome": "Rodrigo Marques",
+            "foto": "https://github.com/rodrigomsrocha.png"
+        },
+        {
+            "nome": "Arthur Sevak",
+            "foto": "https://github.com/sevak19.png"
+        }
+    ]
+}

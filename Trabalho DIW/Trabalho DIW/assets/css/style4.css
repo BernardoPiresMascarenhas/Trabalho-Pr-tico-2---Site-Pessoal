@@ -1,0 +1,38 @@
+strong {
+    font-size: 30px;
+    
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color:slategray;
+    z-index: 100;
+
+}
+
+.labirinto strong{
+    padding: 20px;
+}
+
+.desc{
+    margin-top: 20px;
+}
+
+.datadecriaçao{
+    margin-top: 20px;
+}
+ .linguagem{
+    margin-top: 20px;
+ }
+
+ .link a{
+    color: black;
+    font-size: 20px;
+ }

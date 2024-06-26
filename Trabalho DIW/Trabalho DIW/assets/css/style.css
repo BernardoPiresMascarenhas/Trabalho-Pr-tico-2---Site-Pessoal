@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:gainsboro;
+    position: relative;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color:slategray;
+    z-index: 100;
+    flex-wrap: wrap;
+
+}
+
+.navegacao{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    font-size: 30px;
+}
+
+.nome img{
+    height: 80px;
+}
+
+.navegacao a{
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.seguidores a{
+    color: black;
+    font-weight: bolder;
+}
+
+.info{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.nome2{
+    font-size: 25px;
+}
+
+.bio{
+    width: 800px;
+}
+
+.localizacao {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between; 
+}
+
+.endereco strong{
+    display: block;
+}
+.endereco a{
+    color: black;
+    font-weight: bolder;
+
+}
+
+.redes{
+   margin-top: 20px;
+   font-size: 40px;
+}
+
+.redes a{
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+h2{
+    color: black;
+    font-size: 30px;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background-color: black;
+}
+
+.repositorios{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.repositorio{
+    text-decoration: none;
+    color: black;
+    padding: 15px 10px;
+    border: 1px solid black;
+}
+
+.repositorio img {
+    width: 500px;
+}
+
+#secao1, #secao2, #secao3, #secao4{
+    scroll-margin-top: 200px;
+}
+
+h3{
+    margin-top: 30px;
+    font-size: 30px;
+    
+}
+
+.carousel-box{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.colegas{
+    padding: 30px;
+}
+
+.colegas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    height: 300px;
+}
+
+.colega {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.colegas img{
+    width: 200px;
+    height: 200px;
+}
+
+@media screen and (max-width: 1020px) {
+    .info {
+        flex-direction: column;
+    }
+    .repositorios {
+        grid-template-columns: 1fr;
+    }
+}
+
